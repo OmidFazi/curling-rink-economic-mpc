@@ -76,7 +76,7 @@ Denne kortere perioden brukes i MPC-kodene for å redusere kjøretiden.
 
 ---
 
-### `NY_2026_simulerte_bookinger.csv`
+### `2026_simulerte_bookinger.csv`
 
 Dette er standard bookingfil for hovedscenarioet.
 
@@ -132,7 +132,7 @@ Den bruker samme hovedinputfiler som `MPC_v10.m`:
 ```text
 plant_model_lane2_3input.mat
 MergedData_NEW.csv
-NY_2026_simulerte_bookinger.csv
+2026_simulerte_bookinger.csv
 strompris_lane2_2026.csv
 ```
 
@@ -221,12 +221,12 @@ Ved ny kjøring kreves internettforbindelse, siden scriptet henter strømpriser 
 
 ---
 
-### `Nyeste_Bookingsim.py`
+### `Bookingsim.py`
 
 Python-script som ble brukt til å generere:
 
 ```text
-NY_2026_simulerte_bookinger.csv
+2026_simulerte_bookinger.csv
 ```
 
 CSV-filen er allerede lagt ved, så scriptet trenger ikke kjøres før MPC-kodene.
@@ -360,7 +360,7 @@ bookingFile = 'Flere_2026_simulerte_bookinger.csv';
 Hvis den peker til:
 
 ```matlab
-bookingFile = 'NY_2026_simulerte_bookinger.csv';
+bookingFile = '2026_simulerte_bookinger.csv';
 ```
 
 kjøres standardscenarioet i stedet.
