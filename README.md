@@ -1,4 +1,4 @@
-# README – Bacheloroppgave: Economic MPC for curlinghall
+# README – Bacheloroppgave: Economic MPC for ice temperature control in a curling rink
 
 Dette prosjektet inneholder MATLAB- og Python-filer brukt i bacheloroppgaven om Economic Model Predictive Control (MPC) for temperaturstyring av is i en curlinghall.
 
