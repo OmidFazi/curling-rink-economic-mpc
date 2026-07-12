@@ -1,14 +1,14 @@
 # README – Bacheloroppgave: Economic MPC for curlinghall
 
-Denne mappen inneholder MATLAB- og Python-filer brukt i bacheloroppgaven om Economic Model Predictive Control (MPC) for temperaturstyring av is i en curlinghall.
+Dette repositoryet inneholder MATLAB- og Python-filer brukt i bacheloroppgaven om Economic Model Predictive Control (MPC) for temperaturstyring av is i en curlinghall.
 
-Alle nødvendige `.csv`- og `.mat`-filer er allerede lagt ved i mappen. Det betyr at hovedkodene kan kjøres direkte, så lenge MATLAB sin **Current Folder** er satt til denne prosjektmappen.
+Alle nødvendige `.csv`- og `.mat`-filer er lagt ved i repositoryet. Etter at repositoryet er lastet ned som en ZIP-fil eller klonet lokalt, kan hovedkodene kjøres direkte så lenge MATLAB sin **Current Folder** er satt til den lokale prosjektmappen.
 
 ---
 
 ## Hovedfiler: tre MPC-versjoner
 
-Det finnes tre versjoner av MPC-koden i mappen:
+Det finnes tre versjoner av MPC-koden i repositoryet:
 
 | Filnavn | Beskrivelse |
 |---|---|
@@ -184,7 +184,7 @@ MergedData_NEW_V2.csv
 
 og lager en håndtunet 3-input transferfunksjonsmodell.
 
-`Hand_tuned_model_V1.m` trenger ikke kjøres før MPC-kodene, fordi `plant_model_lane2_3input.mat` allerede er lagt ved i mappen. Scriptet er likevel inkludert for dokumentasjon og reproduksjon.
+`Hand_tuned_model_V1.m` trenger ikke kjøres før MPC-kodene, fordi `plant_model_lane2_3input.mat` allerede er lagt ved i repositoryet. Scriptet er likevel inkludert for dokumentasjon og reproduksjon.
 
 ---
 
@@ -215,7 +215,7 @@ Dette scriptet ble brukt til å lage:
 strompris_lane2_2026.csv
 ```
 
-Scriptet trenger ikke kjøres før MPC-kodene, fordi strømprisfilen allerede er lagt ved i mappen. Det er inkludert for dokumentasjon og reproduksjon.
+Scriptet trenger ikke kjøres før MPC-kodene, fordi strømprisfilen allerede er lagt ved i repositoryet. Det er inkludert for dokumentasjon og reproduksjon.
 
 Ved ny kjøring kreves internettforbindelse, siden scriptet henter strømpriser fra et eksternt API.
 
@@ -374,7 +374,7 @@ Når en MPC-kode kjøres, printes blant annet:
 - energimodell og R²
 - antall bookinger
 - strømprisstatistikk
-- QP-status
+- simuleringstid og QP-feil
 - energikostnad
 - besparelse
 - RMSE mot referanse
