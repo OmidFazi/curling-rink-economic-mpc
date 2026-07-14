@@ -114,7 +114,7 @@ MPC-koden filtrerer ut bookinger der `lane = 2-lane` og lager temperaturreferans
 
 Dette er strømprisfilen som brukes til å beregne energikostnad i MPC-simuleringen.
 
-Filen inneholder minst:
+Filen inneholder kolonnene:
 
 ```text
 time
@@ -324,24 +324,6 @@ scripts/
 ```
 
 Hvis filene ligger i iCloud, OneDrive eller lignende, må de være lastet ned lokalt før MATLAB kan lese dem.
-
----
-
-### Feil bookingfil i scenario med flere bookinger
-
-For `MPC_v10_flereBookinger.m` skal bookingfilen være:
-
-```matlab
-bookingFile = fullfile(dataDir, 'Flere_2026_simulerte_bookinger.csv');
-```
-
-Hvis den peker til:
-
-```matlab
-bookingFile = fullfile(dataDir, '2026_simulerte_bookinger.csv');
-```
-
-kjøres standardscenarioet i stedet.
 
 ---
 
